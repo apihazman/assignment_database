@@ -1,0 +1,128 @@
+
+POST http://localhost:3000/regAdmin
+Content-Type: application/json
+
+{
+    "username":"ADMHa",
+    "password":"ha0807",
+    "name":"HafizAD",
+    "email":"noname@gmail.com",
+    "phoneNumber":"0125649862",
+    "role":"Admin"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"ADMHa",
+    "password":"ha0807"
+}
+
+###
+POST http://localhost:3000/register
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYTE2OTA5MTQwZmM1NTU3MThiMTciLCJ1c2VybmFtZSI6IkFETUhhIiwicGFzc3dvcmQiOiIkMmIkMTAkcTNkSFcwbjhpT3ZTMmlkT2JLSXBBT25sV2JTNTNPUzJaQncyY1VVZ3FKTDMwcFlpLnh4eksiLCJuYW1lIjoiSGFmaXpBRCIsImVtYWlsIjoibm9uYW1lQGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDEyNTY0OTg2MiIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY4ODA1OTc0MiwiZXhwIjoxNjg4MDYzMzQyfQ.xI-UN7D-vzloy_Kw0YmFvDcHeDVWRs4mKKePSZcHFuE
+Content-Type: application/json
+
+{ 
+    "username":"S.C1",
+    "password":"sc0908",
+    "name":"AidilSC",
+    "email":"SCAidil@gmail.com"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"S.C1",
+    "password":"sc0908"
+}
+
+###
+POST http://localhost:3000/register
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYjhlYmUxYThhM2FiZTE4MzlhZGQiLCJ1c2VybmFtZSI6IlMuQzEiLCJwYXNzd29yZCI6IiQyYiQxMCRzZUdEQlQxSVRMbXBCYUVlR09CbkhlN1RKR1prbWpjVWxjTXdsT21odmQzR3doc3VPcFpMSyIsIm5hbWUiOiJBaWRpbFNDIiwiZW1haWwiOiJTQ0FpZGlsQGdtYWlsLmNvbSIsInJvbGUiOiJTZWN1cml0eSIsInZpc2l0b3JzIjpbXSwiaWF0IjoxNjg4MDU5OTY5LCJleHAiOjE2ODgwNjM1Njl9.3UM0J5HIttENZZtCJbL_EV544xZRGlL3T6Kk-88VYkc
+Content-Type: application/json
+
+{   
+    "username":"Ammarr_U1",
+    "password":"amrP_53",
+    "name": "Ammar",
+    "ic": "020809-10-0323",   
+    "phone": "01124303790", 
+    "vehicleNo": "JRP 3465",
+    "department": "ft.9",
+    "company": "MPP.Enterprise",
+    "date" : "15/06/2023"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"Ammarr_U1",
+    "password":"amrP_53"
+}
+
+###
+GET http://localhost:3000/read
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYTE2OTA5MTQwZmM1NTU3MThiMTciLCJ1c2VybmFtZSI6IkFETUhhIiwicGFzc3dvcmQiOiIkMmIkMTAkcTNkSFcwbjhpT3ZTMmlkT2JLSXBBT25sV2JTNTNPUzJaQncyY1VVZ3FKTDMwcFlpLnh4eksiLCJuYW1lIjoiSGFmaXpBRCIsImVtYWlsIjoibm9uYW1lQGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDEyNTY0OTg2MiIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY4ODA1NTkwMSwiZXhwIjoxNjg4MDU5NTAxfQ.Brp2o7TD-FNKjS2xUYXhLniG8QT3_HmbDkpc_FA7bz8
+
+###
+GET http://localhost:3000/read
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYjhlYmUxYThhM2FiZTE4MzlhZGQiLCJ1c2VybmFtZSI6IlMuQzEiLCJwYXNzd29yZCI6IiQyYiQxMCRzZUdEQlQxSVRMbXBCYUVlR09CbkhlN1RKR1prbWpjVWxjTXdsT21odmQzR3doc3VPcFpMSyIsIm5hbWUiOiJBaWRpbFNDIiwiZW1haWwiOiJTQ0FpZGlsQGdtYWlsLmNvbSIsInJvbGUiOiJTZWN1cml0eSIsInZpc2l0b3JzIjpbXSwiaWF0IjoxNjg4MDU4NDU1LCJleHAiOjE2ODgwNjIwNTV9.OhOcKzK9WLgPAVA7d3bOTQmgtgZhlc7kY2Iu9UT1JGs
+
+###
+PATCH http://localhost:3000/updateVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYTY2ODA5MTQwZmM1NTU3MThiMTkiLCJ1c2VybmFtZSI6IkFtbWFycl9VMSIsInBhc3N3b3JkIjoiJDJiJDEwJE04ZFBLbnVtRGdaWkJDazluM05laU8yYVZHMUFJZXNnZHJCeVNrdm92TGZLVFJOOFhia1N5IiwibmFtZSI6IkFtbWFyIiwiaWMiOiIwMjA4MDktMTAtMDMyMyIsImVtYWlsIjpudWxsLCJwaG9uZSI6IjAxMTI0MzAzNzkwIiwidmVoaWNsZU5vIjoiSlJQIDM0NjUiLCJkZXBhcnRtZW50IjoiZnQuOSIsImNvbXBhbnkiOiJNUFAuRW50ZXJwcmlzZSIsInJvbGUiOiJWaXNpdG9yIiwic2VjdXJpdHkiOiJTLkMxIiwicmVjb3JkcyI6WyJSZWNvcmQwMDEiXSwiaWF0IjoxNjg4MDYwMDA2LCJleHAiOjE2ODgwNjM2MDZ9.WG0sN-Fi1wq6zXWR4aKbi5AxrfSty6i4cJYrrl3EfNo
+
+{   
+    "username":"Ammar_U1",
+    "phone": "011122222", 
+    "vehicleNo": "AJQ 3388",
+    "department": "fke.9",
+    "company": "HHH holding"
+}
+
+
+###
+POST http://localhost:3000/checkIn
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYTY2ODA5MTQwZmM1NTU3MThiMTkiLCJ1c2VybmFtZSI6IkFtbWFycl9VMSIsInBhc3N3b3JkIjoiJDJiJDEwJE04ZFBLbnVtRGdaWkJDazluM05laU8yYVZHMUFJZXNnZHJCeVNrdm92TGZLVFJOOFhia1N5IiwibmFtZSI6IkFtbWFyIiwiaWMiOiIwMjA4MDktMTAtMDMyMyIsImVtYWlsIjpudWxsLCJwaG9uZSI6IjAxMTI0MzAzNzkwIiwidmVoaWNsZU5vIjoiSlJQIDM0NjUiLCJkZXBhcnRtZW50IjoiZnQuOSIsImNvbXBhbnkiOiJNUFAuRW50ZXJwcmlzZSIsInJvbGUiOiJWaXNpdG9yIiwic2VjdXJpdHkiOiJTLkMxIiwicmVjb3JkcyI6W10sImlhdCI6MTY4ODA1NDU2MiwiZXhwIjoxNjg4MDU4MTYyfQ.lr_doOgsphYzTivtFk5hLJPF4EnpSZ7vY4XDAFtCytc
+Content-Type: application/json
+
+{
+    "recordID":"Record001",
+    "purpose":"Searching"
+}
+###
+PATCH http://localhost:3000/checkOut
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYTY2ODA5MTQwZmM1NTU3MThiMTkiLCJ1c2VybmFtZSI6IkFtbWFycl9VMSIsInBhc3N3b3JkIjoiJDJiJDEwJE04ZFBLbnVtRGdaWkJDazluM05laU8yYVZHMUFJZXNnZHJCeVNrdm92TGZLVFJOOFhia1N5IiwibmFtZSI6IkFtbWFyIiwiaWMiOiIwMjA4MDktMTAtMDMyMyIsImVtYWlsIjpudWxsLCJwaG9uZSI6IjAxMTI0MzAzNzkwIiwidmVoaWNsZU5vIjoiSlJQIDM0NjUiLCJkZXBhcnRtZW50IjoiZnQuOSIsImNvbXBhbnkiOiJNUFAuRW50ZXJwcmlzZSIsInJvbGUiOiJWaXNpdG9yIiwic2VjdXJpdHkiOiJTLkMxIiwicmVjb3JkcyI6W10sImlhdCI6MTY4ODA1NDU2MiwiZXhwIjoxNjg4MDU4MTYyfQ.lr_doOgsphYzTivtFk5hLJPF4EnpSZ7vY4XDAFtCytc
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/checkIn
+Authorization: Bearerey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkOWE4YzY0YWFiMTFhYmI3ZGRlOTMiLCJ1c2VybmFtZSI6IkFtbWFycl9VMSIsInBhc3N3b3JkIjoiJDJiJDEwJFFvSDYvd1RyUUM3U2hHVTRmVkZzSWV5ak9pLjJRL1BIMFlVT2pvNlB5TU9zdkVtek9Jek1PIiwibmFtZSI6IkFtbWFyIiwiaWMiOiIwMjA4MDktMTAtMDMyMyIsImVtYWlsIjpudWxsLCJwaG9uZSI6IjAxMTI0MzAzNzkwIiwidmVoaWNsZU5vIjoiSlJQIDM0NjUiLCJkZXBhcnRtZW50IjoiZnQuOSIsImNvbXBhbnkiOiJNUFAuRW50ZXJwcmlzZSIsInJvbGUiOiJWaXNpdG9yIiwic2VjdXJpdHkiOiJTLkMxIiwicmVjb3JkcyI6W10sImlhdCI6MTY4ODA1MDM3MiwiZXhwIjoxNjg4MDUzOTcyfQ.iThg8FjvgCWPqJ4sBBsCpnCL2156UtalolxwwgR_1aw
+Content-Type: application/json
+
+{
+    "recordID":"Record002",
+    "purpose":"Meeting"
+}
+
+###
+PATCH http://localhost:3000/checkOut
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkOWE4YzY0YWFiMTFhYmI3ZGRlOTMiLCJ1c2VybmFtZSI6IkFtbWFycl9VMSIsInBhc3N3b3JkIjoiJDJiJDEwJFFvSDYvd1RyUUM3U2hHVTRmVkZzSWV5ak9pLjJRL1BIMFlVT2pvNlB5TU9zdkVtek9Jek1PIiwibmFtZSI6IkFtbWFyIiwiaWMiOiIwMjA4MDktMTAtMDMyMyIsImVtYWlsIjpudWxsLCJwaG9uZSI6IjAxMTI0MzAzNzkwIiwidmVoaWNsZU5vIjoiSlJQIDM0NjUiLCJkZXBhcnRtZW50IjoiZnQuOSIsImNvbXBhbnkiOiJNUFAuRW50ZXJwcmlzZSIsInJvbGUiOiJWaXNpdG9yIiwic2VjdXJpdHkiOiJTLkMxIiwicmVjb3JkcyI6W10sImlhdCI6MTY4ODA1MDM3MiwiZXhwIjoxNjg4MDUzOTcyfQ.iThg8FjvgCWPqJ4sBBsCpnCL2156UtalolxwwgR_1aw
+
+###
+DELETE http://localhost:3000/deleteVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlkYTNhZTA5MTQwZmM1NTU3MThiMTgiLCJ1c2VybmFtZSI6IlMuQzEiLCJwYXNzd29yZCI6IiQyYiQxMCRDOEw0L1N1blZRQlNuZ21wdUw2TkV1ZDczSzJGbkszOXZPd2kuem5pY1I4T3kwakhJR1MuNiIsIm5hbWUiOiJBaWRpbFNDIiwiZW1haWwiOiJTQ0FpZGlsQGdtYWlsLmNvbSIsInJvbGUiOiJTZWN1cml0eSIsInZpc2l0b3JzIjpbIkFtbWFycl9VMSJdLCJpYXQiOjE2ODgwNTcxOTUsImV4cCI6MTY4ODA2MDc5NX0.gQDyHEv2oD9mOANePqdp_6_EO_5ajI6PD4-2DDq5Jjo
+
+
